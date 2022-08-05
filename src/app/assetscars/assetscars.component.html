@@ -1,0 +1,22 @@
+<body>
+    <div class="d-flex">
+        <div class="container">
+
+            <div class="customCard">
+                <div *ngFor="let assets of assets" class="assetCard">
+                    <ul>
+                        <li>
+                            <div>
+                                <img class="assetImage" [src]="assets.image_url">
+                            </div>
+                            <h3>
+                                {{assets.name}}
+                            </h3>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>

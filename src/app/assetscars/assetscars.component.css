@@ -1,0 +1,44 @@
+body {
+    background-color: #663399;
+    background-size: 100vw 100vh;
+}
+
+ul {
+    padding-left: 15px;
+    list-style: none;
+}
+
+h3 {
+    margin-top: 3%;
+}
+
+.customCard {
+    position: left;
+    display: flex;
+    flex-wrap: wrap;
+    width: 96vw;
+    padding-left: 115px;
+    margin: 95px 0px;
+}
+
+.assetCard {
+    z-index: 2;
+    display: flex;
+    width: 350px;
+    height: 370px;
+    background-color: #f8f8ff;
+    border-radius: 2vw;
+    -webkit-filter: drop-shadow(2px 6px 3px rgba(0, 0, 0, 0.5));
+    filter: drop-shadow(2px 6px 3px rgba(0, 0, 0, 0.5));
+    margin: 40px 40px 40px 35px;
+    padding-bottom: 60px;
+    padding-right: 0px;
+}
+
+.assetImage {
+    z-index: 3;
+    width: 300px;
+    height: 300px;
+    margin-top: 5%;
+    border-radius: 1.2vw;
+}

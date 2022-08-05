@@ -1,0 +1,70 @@
+body {
+    background-color: #663399;
+    background-size: 100vw 100vh;
+}
+
+ul {
+    list-style: none;
+}
+
+.customCard {
+    position: left;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+    padding-left: 115px;
+    margin: 95px 0px;
+}
+
+.avatarCard {
+    display: flex;
+    z-index: 2;
+    width: 296px;
+    height: 448px;;
+    background-color: #f7bb29;
+    border-radius: 2vw;
+    -webkit-filter: drop-shadow(2px 6px 3px rgba(0, 0, 0, 0.5));
+    filter: drop-shadow(2px 6px 3px rgba(0, 0, 0, 0.5));
+    margin: 40px 60px 40px 60px;
+    padding-bottom: 60px;
+    padding-right: 40px;
+}
+
+h3, p {
+    position: absolute;
+    z-index: 4;
+}
+
+h3, p {
+    background-color: #f7bb29;
+    padding: 0.4em;
+}
+
+h3  {
+    top: 3.5%;
+    left: 4%;
+}
+
+p {
+    bottom: 0.5%;
+    right: 5%;
+    font-size: 1.2em;
+}
+
+img {
+    margin-top: 13%;
+}
+
+.avatarImage {
+    z-index: 3;
+    width: 246px;
+    height: 388px;
+    border-radius: 1.2vw;
+    background:#001a23;
+    overflow: hidden;
+}
+
+.buttonDiv {
+    width: 95.5%;
+    text-align: center;
+}

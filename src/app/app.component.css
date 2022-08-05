@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+.topBar {
+    position: absolute;
+    width: 100vw;
+    height: 65px;
+    background-color: #404040;
+}
+
+h3 {
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    margin-top: 12px;
+    color: #f7bb29
+}

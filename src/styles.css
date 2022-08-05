@@ -1,1 +1,8 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+    background-color: #663399;
+    background-size: 100vw 100vh;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}

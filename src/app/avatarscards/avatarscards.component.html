@@ -1,0 +1,29 @@
+<body>
+    <div class="d-flex">
+        <div class="container">
+
+            <div class="customCard">
+                <div *ngFor="let avatar of avatars" class="avatarCard">
+                    <ul>
+                        <li>
+                            <div>
+                                <h3>{{avatar.metadata.name}}</h3>
+                                <p>ETH 0,1</p>
+                                <div>
+                                    <img class="avatarImage" [src]="avatar.metadata.image">
+                                </div>
+                            </div>
+                        </li>
+                    </ul>  
+                </div>
+
+                <div class="buttonDiv">
+                    <app-load (avatars)="addMoreAvatars($event)"></app-load>
+                </div>
+                
+            </div>
+
+        </div>
+    </div>
+
+</body>
